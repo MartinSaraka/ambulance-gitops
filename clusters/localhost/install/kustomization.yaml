@@ -9,3 +9,5 @@ labels:
 
 resources:
 - ../../../apps/cv1saraka-ambulance-ufe
+components:
+- ../../../components/version-developers
