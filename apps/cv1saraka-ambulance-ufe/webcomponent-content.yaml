@@ -4,7 +4,10 @@ metadata:
   name: cv1saraka-ambulance-ufe-content
 spec:
   microFrontend: cv1saraka-ambulance-ufe
-  element: cv1saraka-ambulance-wl-list
+  element: cv1saraka-ambulance-wl-app
+  attributes:
+    - name: base-path
+      value: /cv1saraka-ambulance-wl/
   displayRules:
     - allOf:
       - context-name: main-content
