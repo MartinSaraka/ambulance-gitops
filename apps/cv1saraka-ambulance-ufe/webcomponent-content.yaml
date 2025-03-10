@@ -6,8 +6,10 @@ spec:
   microFrontend: cv1saraka-ambulance-ufe
   element: cv1saraka-ambulance-wl-app
   attributes:
-    - name: base-path
-      value: /cv1saraka-ambulance-wl/
+    - name: api-base
+      value: http://localhost:5000/api
+    - name: ambulance-id
+      value: bobulova
   displayRules:
     - allOf:
       - context-name: main-content
