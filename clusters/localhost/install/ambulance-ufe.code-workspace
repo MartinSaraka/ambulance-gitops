@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../../ambulance-ufe"
+		},
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../ambulance-webapi"
+		}
+	],
+	"settings": {}
+}

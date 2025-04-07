@@ -9,5 +9,11 @@ labels:
 
 resources:
 - ../../../apps/cv1saraka-ambulance-ufe
+- ../../../apps/cv1saraka-ambulance-webapi
+
+patches:
+- path: patches/ambulance-webapi.service.yaml
+
 components:
 - ../../../components/version-developers
+- https://github.com/MartinSaraka/ambulance-webapi//deployments/kustomize/components/mongodb
