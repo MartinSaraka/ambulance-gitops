@@ -34,7 +34,7 @@ spec:
             configMapKeyRef:
               name: mongodb-connection
               key: host
-        # authentication and authorization at cluster level
+        # authentication and authorization at cluster levell
         - name: ME_CONFIG_BASICAUTH_USERNAME
           value: ""
         - name: ME_CONFIG_BASICAUTH_PASSWORD
