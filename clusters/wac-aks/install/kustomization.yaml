@@ -12,7 +12,7 @@ labels:
 
 resources:
 - ../../../apps/cv1saraka-ambulance-ufe
-- ../../../apps/<pfx>-ambulance-webapi
+- ../../../apps/cv1saraka-ambulance-webapi
 
 
 components:

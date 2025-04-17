@@ -9,4 +9,4 @@ resources:
 - http-route.yaml
 
 commonLabels:
-  app.kubernetes.io/component: mongo-express
+  app.kubernetes.io/component: mongo-express  

@@ -24,19 +24,21 @@ spec:
           kind: Service
           name: cv1saraka-ambulance-webapi
           port: 80
+    
     - matches:
         - path:
             type: PathPrefix
-            value: /<pfx>-openapi-ui
+            value: /cv1saraka-openapi-ui
       backendRefs:
         - group: ""
           kind: Service
-          name: <pfx>-openapi-ui
+          name: cv1saraka-openapi-ui
           port: 80
+
     - matches:
         - path:
             type: Exact
-            value: /<pfx>-openapi
+            value: /cv1saraka-openapi
       filters:
       - type: URLRewrite
         urlRewrite:
@@ -46,5 +48,6 @@ spec:
       backendRefs:
         - group: ""
           kind: Service
-          name: <pfx>-ambulance-webapi
+          name: cv1saraka-ambulance-webapi
           port: 80
+

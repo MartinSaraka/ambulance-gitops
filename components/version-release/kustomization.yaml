@@ -4,3 +4,6 @@ images:
 - name: xsaraka/ambulance-ufe
   newName: xsaraka/ambulance-ufe
   newTag: 1.1.0
+- name: xsaraka/ambulance-wl-webapi
+  newName: xsaraka/ambulance-wl-webapi
+  newTag: 1.1.0
